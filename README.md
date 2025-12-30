@@ -14,9 +14,9 @@ This project involves the design and implementation of an autonomous vehicle cap
 The system is built on a modular architecture:
 * **MCU:** STM32F103C8T6 (ARM Cortex-M3) - The core processing unit.
 * **Sensors:** Custom-made Inductor Coils + Operational Amplifiers (Op-Amp). 
-    * [cite_start]*Logic:* The Op-Amp converts weak induced electromotive force from the wire into readable analog signals for the MCU's ADC[cite: 797].
+    * *Logic:* The Op-Amp converts weak induced electromotive force from the wire into readable analog signals for the MCU's ADC[cite: 797].
 * **Actuators:** DC Motors driven by **L298N** Dual H-Bridge module.
-* [cite_start]**Power:** 7.4V Li-po battery, regulated to 5V for logic circuits[cite: 796].
+* **Power:** 7.4V Li-po battery, regulated to 5V for logic circuits[cite: 796].
 
 ## 3. Control Algorithm (PID)
 The core challenge was to minimize the steady-steady error during high-speed tracking. [cite_start]I implemented a classic **PID (Proportional-Integral-Derivative)** controller[cite: 807]:
@@ -26,8 +26,8 @@ The core challenge was to minimize the steady-steady error during high-speed tra
     $$u(t) = K_p e(t) + K_i \int e(t) dt + K_d \frac{de(t)}{dt}$$
 * **Tuning Strategy:**
     * **P (Proportional):** Adjusted for basic responsiveness.
-    * [cite_start]**D (Derivative):** Introduced to predict error trends and eliminate oscillation (overshoot) during sharp turns[cite: 819].
-    * [cite_start]**I (Integral):** Used to eliminate steady-state error on straight paths[cite: 814].
+    * **D (Derivative):** Introduced to predict error trends and eliminate oscillation (overshoot) during sharp turns[cite: 819].
+    * **I (Integral):** Used to eliminate steady-state error on straight paths[cite: 814].
 
 ## 4. Implementation Details
 * [cite_start]**Signal Processing:** The analog signals from the inductors are processed via the on-board ADC (PA1/PA2 pins)[cite: 799].
