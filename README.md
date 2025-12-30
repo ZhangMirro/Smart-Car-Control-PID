@@ -38,8 +38,8 @@ The core challenge was to minimize the steady-steady error during high-speed tra
 
 > **Watch the full test run with high-speed drifting and PID tuning visualization:**
 
-[![Watch the Video](demo_track_run.gif)]( https://www.bilibili.com/video/BV125vYBRE6s/?share_source=copy_web&vd_source=646220b8e51b9ddac5d848d8d5bb54c3)
-
+[![Watch the Video](demo_track_run.png)]( https://www.bilibili.com/video/BV125vYBRE6s)
+![[demo_track_run.png]]
 *(Click the image above to watch the full video with editing)*
 ---
 *Created for the "Quality Cup" Robot Innovation Competition, Hubei University of Technology.*
