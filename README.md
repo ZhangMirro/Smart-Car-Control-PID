@@ -38,7 +38,7 @@ The core challenge was to minimize the steady-steady error during high-speed tra
 
 > **Watch the full test run with high-speed drifting and PID tuning visualization:**
 
-[![Watch the Video](demo_track_run.png)]( https://www.bilibili.com/video/BV125vYBRE6s)
+[![Watch the Video]]( https://www.bilibili.com/video/BV125vYBRE6s)
 ![[demo_track_run.png]]
 *(Click the image above to watch the full video with editing)*
 ---
