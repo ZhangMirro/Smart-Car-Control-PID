@@ -7,7 +7,7 @@ This project involves the design and implementation of an autonomous vehicle cap
 
 > **Note:** This repository serves as a technical archive. The original source code is deprecated; this document focuses on system architecture and control logic validation.
 
-![Demo Run](demo_track_run.png) 
+![Demo Run](skeleton.png) 
 *(Figure: The vehicle successfully tracking the path at high speed using the tuned PID parameters)*
 
 ## 2. Hardware Architecture [Based on Technical Report]
